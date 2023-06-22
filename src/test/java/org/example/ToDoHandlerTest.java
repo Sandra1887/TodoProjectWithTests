@@ -67,11 +67,12 @@ class ToDoHandlerTest {
 
         Mockito.verify(helperMock).askForTableNameToAddTodo();
         Mockito.verify(helperMock).askForNewTodo();
+        Mockito.verify(connectionMock).prepareStatement(sql);
         Mockito.verify(preparedStatementMock).setString(1, "Test Bicicleta");
         Mockito.verify(preparedStatementMock).setString(2, "Zlatan");
         Mockito.verify(preparedStatementMock).setString(3, "Yes");
-        Mockito.verify(preparedStatementMock).executeUpdate();
-        Mockito.verify(System.out).println("Todo Successfully added");
+        Mockito.verify(preparedStatementMock).executeUpdate(); // <------------
+        Mockito.verify(System.out).println("Todo Successfully added"); //<-------
 
         assertTrue(result);
     }
