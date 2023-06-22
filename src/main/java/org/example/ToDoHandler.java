@@ -8,7 +8,7 @@ public class ToDoHandler implements ICrud, IToDo {
     DbHandler dbHandler;
     Helper helper;
 
-    public ToDoHandler(String dbName) {
+    public ToDoHandler() {
         helper = new Helper();
         dbHandler = new DbHandler(dbName);
     }
@@ -65,7 +65,7 @@ public class ToDoHandler implements ICrud, IToDo {
         }
     }
 
-    public boolean update() {
+    public boolean update() { //<-- används ej i "Application" - bara kvar som "eventuell lösning"
         int id = helper.askForId();
         String tableName = helper.askForTableName();
         String answer = helper.askForTextOrDone();

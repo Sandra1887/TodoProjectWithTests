@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf35e22d-264e-46ac-b218-07643913a3bc" name="Changes" comment="ToDoHandlerTests ready">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DbHandlerTest.java" afterDir="false" />
+    <list default="true" id="bf35e22d-264e-46ac-b218-07643913a3bc" name="Changes" comment="DbHandlerTests started">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/chatGpt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DbHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DbHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ToDoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ToDoHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ToDoHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ToDoHandlerTest.java" afterDir="false" />
+    </list>
+    <list id="92f6bbba-0aa4-41c5-a35d-05e19933ed58" name="Changes by marmed02" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DbHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DbHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ToDoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ToDoHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ToDoHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ToDoHandlerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +34,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/org/example/DbHandler.java">
+      <ranges>
+        <range start1="15" end1="15" start2="15" end2="25" changelist="bf35e22d-264e-46ac-b218-07643913a3bc" />
+        <range start1="89" end1="89" start2="99" end2="103" changelist="92f6bbba-0aa4-41c5-a35d-05e19933ed58" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/org/example/ToDoHandler.java">
+      <ranges>
+        <range start1="10" end1="11" start2="10" end2="11" changelist="bf35e22d-264e-46ac-b218-07643913a3bc" />
+        <range start1="12" end1="13" start2="12" end2="13" changelist="92f6bbba-0aa4-41c5-a35d-05e19933ed58" />
+        <range start1="15" end1="15" start2="15" end2="24" changelist="92f6bbba-0aa4-41c5-a35d-05e19933ed58" />
+        <range start1="19" end1="20" start2="28" end2="29" changelist="92f6bbba-0aa4-41c5-a35d-05e19933ed58" />
+        <range start1="67" end1="68" start2="76" end2="77" changelist="bf35e22d-264e-46ac-b218-07643913a3bc" />
+        <range start1="127" end1="128" start2="136" end2="137" changelist="bf35e22d-264e-46ac-b218-07643913a3bc" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/test/java/org/example/ToDoHandlerTest.java">
+      <ranges>
+        <range start1="20" end1="28" start2="20" end2="20" changelist="bf35e22d-264e-46ac-b218-07643913a3bc" />
+        <range start1="40" end1="41" start2="32" end2="36" changelist="bf35e22d-264e-46ac-b218-07643913a3bc" />
+        <range start1="44" end1="46" start2="39" end2="44" changelist="bf35e22d-264e-46ac-b218-07643913a3bc" />
+        <range start1="50" end1="52" start2="48" end2="50" changelist="bf35e22d-264e-46ac-b218-07643913a3bc" />
+        <range start1="54" end1="54" start2="52" end2="70" changelist="92f6bbba-0aa4-41c5-a35d-05e19933ed58" />
+        <range start1="59" end1="59" start2="75" end2="86" changelist="92f6bbba-0aa4-41c5-a35d-05e19933ed58" />
+        <range start1="60" end1="61" start2="87" end2="87" changelist="bf35e22d-264e-46ac-b218-07643913a3bc" />
+        <range start1="64" end1="64" start2="90" end2="93" changelist="92f6bbba-0aa4-41c5-a35d-05e19933ed58" />
+        <range start1="65" end1="65" start2="94" end2="96" changelist="92f6bbba-0aa4-41c5-a35d-05e19933ed58" />
+        <range start1="123" end1="126" start2="154" end2="157" changelist="92f6bbba-0aa4-41c5-a35d-05e19933ed58" />
+        <range start1="160" end1="160" start2="191" end2="192" changelist="92f6bbba-0aa4-41c5-a35d-05e19933ed58" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -35,6 +76,9 @@
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2RSrtlfu8q0H8PeGmQ1GKdnmQQS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -65,6 +109,48 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ChatGPTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TodoSandra" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ChatGPTTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoHandlerTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TodoSandra" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ToDoHandlerTest" />
+      <option name="METHOD_NAME" value="testCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ChatGPTTest" />
+        <item itemvalue="JUnit.ToDoHandlerTest.testCreate" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,12 +167,19 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1687421469850</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="DbHandlerTests started">
+      <created>1687422946653</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1687422946653</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ToDoHandlerTests ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="ToDoHandlerTests ready" />
+    <MESSAGE value="DbHandlerTests started" />
+    <option name="LAST_COMMIT_MESSAGE" value="DbHandlerTests started" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

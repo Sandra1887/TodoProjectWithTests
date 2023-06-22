@@ -13,6 +13,16 @@ public class DbHandler implements ICrud {
             System.out.println("Error connecting to database: " + e.getMessage());
         }
     }
+    public DbHandler() {
+        helper = new Helper();
+        //String dbName = helper.askForDbName();
+        try {
+            connection = DriverManager.getConnection("jdbc:sqlite:dbName.db");
+        } catch (SQLException e) {
+            System.out.println("Error connecting to database: " + e.getMessage());
+        }
+    }
+
     @Override
     public boolean create() {
         String tableName = helper.askForTableName();

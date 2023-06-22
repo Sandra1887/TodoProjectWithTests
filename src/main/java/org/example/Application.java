@@ -10,8 +10,8 @@ public class Application {
     public Application() {
         helper = new Helper();
         String dbName = helper.askForDbName();
-        todoHandler = new ToDoHandler(dbName);
-        dbHandler = new DbHandler(dbName);
+        todoHandler = new ToDoHandler();
+        dbHandler = new DbHandler();
     }
     public void start() {
         while(!exit) {
